@@ -22,8 +22,8 @@ Sous-projet 3:
 
 Sous-projet 4:
 -------------
-Implémenter la fonctionnalité consistant à permettre de vérifier si deux adresses sont dans le 
-même réseau et donc capables de communiquer.
+Implémenter la fonctionnalité consistant à permettre de vérifier si deux adresses sont dans le même réseau et donc capables de communiquer.
+<pre>Attention : sur la capture ci-dessous, "optionnel" IP2 est pour l'utilisateur. Pour vous, il faut l'implémenter obligatoirement. </pre>
 
 Sous-projet 5:
 -------------

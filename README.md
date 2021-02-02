@@ -32,5 +32,10 @@ Sous-projet 5:
 Sous projet optionnel:
 --------------------
    calculer le masque de deux adresses données (cf "Recherche de masque" dans http://hobbesworld.com/reseaux/calcip.php)
+   
+Attendu:
+--------------------
+<img src="attendu.jpg" width=75% height=75%>
+
 
 

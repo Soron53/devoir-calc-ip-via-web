@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>ipCalc Reaumur</title>
+	<!-- <link href="style.css" rel="stylesheet" /> -->
+</head>
+
+<body>
+	<header>
+		<!--don't remove-->
+	</header>
+	<main>
+		<div class="logo">
+			<div class="image">Lycée Réaumur</div>
+			<h1>ReaumurTech.com</h1>
+			<h4>Votre calculatrice en ligne des sous-réseaux IP (v4).</h4>
+		</div>
+		<div class=menu></div>
+		<!--don't remove-->
+		<div class="content">
+			<h1>Calculatrice IP</h1>
+			<form>
+				<div class="formfield">
+					<p>Cette calculatrice IP a pour but de faciliter la gestion des masques réseaux dans une
+						infrastructure. Donc, si vous avez une adresse IP et un masque réseau, quel que soit son
+						format, vous pouvez utiliser la calculatrice générale ci-dessous, et ainsi vérifier si 2
+						adresses sont bien dans le même réseau ou non, et par conséquent si elles peuvent utiliser
+						la même gateway ou non, les mêmes accès réseaux.... (texte de www.hobbesworld.com)
+					</p>
+					<div class="leftright">
+						<div class="enter">
+							<p>Entrez l'adresse IP et son masque</p>
+							<span>Adresse IP</span>
+							<input type="text" name="ipinput" size="15" maxlength="15" tabindex="1">
+
+							<span>Masque de sous-réseau</span>
+							<input type="text" name="sminput" size="15" maxlength="15" tabindex="2">
+
+							<input type="button" value="Calculer" name="submitButtonName">
+							<input type="reset" value=" Reset ">
+
+						</div>
+						<div></div>
+						<div class="results">
+							<p>Résultats</p>
+
+							<span>Première adresse disponible</span>
+							<input type="text" value="0.0.0.0" name="starthost" size="15" maxlength="15">
+
+							<span>Dernière adresse disponible</span>
+							<input type="text" value="0.0.0.0" name="endhost" size="15" maxlength="15">
+
+							<span>Nombre d'adresses disponibles</span>
+							<input type="text" value="0" name="numofhosts" size="9" maxlength="15">
+
+							<div class="net">
+								<span>Adresse réseau</span>
+								<input type="text" value="0.0.0.0" name="subnetaddress" size="15" maxlength="15">
+							</div>
+
+							<span>Adresse de diffusion</span>
+							<input type="text" value="0.0.0.0" name="broadcastaddress" size="15" maxlength="15">
+
+
+							<span>Portée des adresses réseau</span>
+							<input type="text" value="0" name="subsizebits" size="2" maxlength="2"> Bits
+
+							<span>Portée des adresses hôtes</span>
+							<input type="text" value="0" name="hostsizebits" size="2" maxlength="2"> Bits
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<footer>&copy;SIN 2020</footer>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>
